@@ -1,0 +1,20 @@
+[project]
+name = "spotiplay"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Damian Herrick", email = "damian.herrick@gmail.com" }]
+requires-python = "~=3.10"
+readme = "README.md"
+dependencies = [
+    "python-dotenv>=1.0.1,<2",
+    "spotipy>=2.24.0,<3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipython>=8.37.0",
+]
