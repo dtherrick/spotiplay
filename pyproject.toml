@@ -6,7 +6,9 @@ authors = [{ name = "Damian Herrick", email = "damian.herrick@gmail.com" }]
 requires-python = "~=3.10"
 readme = "README.md"
 dependencies = [
+    "dotenv>=0.9.9",
     "python-dotenv>=1.0.1,<2",
+    "setlist-fm-client>=0.4.0",
     "spotipy>=2.24.0,<3",
 ]
 
